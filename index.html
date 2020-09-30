@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg version="1.1" xmlns="http://w3.org/2000/svg" xmlns:link="http://w3.org/1999/xlink" viewbox="0 0 256 160">
+      <defs>
+        <clipPath id="looking-glass">
+          <circle id="mask-ring" cx="128" cy="80" r="30" />
+        </clipPath>
+      </defs>
+      <image id="picture" href="./wheresWally.jpg" width="256" height="160" preserveAspectRatio="xMidYMid slice" />
+      <image
+        id="big-picture"
+        href="./wheresWally.jpg"
+        width="512"
+        height="320"
+        clip-path="url(#looking-glass)"
+        preserveAspectRatio="xMidYMid slice"
+      />
+      <circle id="ring" cx="128" cy="88" r="30" fill="none" stroke="red" stroke-width="1" />
+    </svg>
+    <!-- <svg id="the_svg" xmlns="http://w3.org/2000/svg">
+      <circle id="red_ball" cx="100" cy="100" r="30" fill="red" />
+    </svg> -->
+  </body>
+  <script src="script.js"></script>
+</html>

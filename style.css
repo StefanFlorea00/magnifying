@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+svg {
+  border: 1px grey solid;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    overflow: initial;
+  }
+
+  #ring {
+    stroke-width: 5px;
+  }
+}
