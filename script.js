@@ -37,6 +37,7 @@ function init() {
     addMobileEvents();
     moveImage();
   } else {
+    magnifierRadius = 300;
     addDragEvents();
     addKeyEvents();
     moveImage();

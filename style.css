@@ -8,12 +8,12 @@ svg {
   border: 1px grey solid;
 }
 
+#ring {
+  stroke-width: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   * {
     overflow: initial;
-  }
-
-  #ring {
-    stroke-width: 5px;
   }
 }
